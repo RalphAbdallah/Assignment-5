@@ -1,0 +1,27 @@
+.day {
+  padding: var(--sp-3) var(--sp-2);
+  text-align: center;
+  background-color: var(--surface);
+  border-radius: var(--radius);
+}
+
+.dayName {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.high {
+  margin-top: var(--sp-2);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.low {
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .dayName {
+    font-size: 0.75rem;
+  }
+}

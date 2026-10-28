@@ -1,0 +1,40 @@
+.weatherCard h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.country {
+  color: var(--muted);
+}
+
+.now {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.temp {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.conditions {
+  margin-top: var(--sp-2);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1) var(--sp-4);
+  margin-top: var(--sp-2);
+  color: var(--muted);
+}

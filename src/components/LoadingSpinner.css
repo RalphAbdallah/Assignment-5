@@ -1,0 +1,26 @@
+.loader {
+  flex-shrink: 0;
+  width: var(--sp-3);
+  height: var(--sp-3);
+  background-color: var(--brand);
+  border-radius: 50%;
+  animation: pulse 900ms ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader {
+    animation: none;
+  }
+}

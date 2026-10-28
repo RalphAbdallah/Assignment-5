@@ -1,0 +1,36 @@
+.status {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-4);
+  padding: var(--sp-3);
+  color: var(--muted);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.statusText {
+  flex: 1;
+}
+
+.status .button {
+  flex-shrink: 0;
+}
+
+.status.loading {
+  color: var(--brand);
+  background-color: var(--brand-soft);
+  border-color: transparent;
+}
+
+.status.error {
+  color: var(--danger);
+  background-color: var(--danger-soft);
+  border-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .status {
+    flex-wrap: wrap;
+  }
+}

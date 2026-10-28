@@ -1,0 +1,7 @@
+.placePicker {
+  margin-top: var(--sp-3);
+}
+
+.placePicker select {
+  width: 100%;
+}

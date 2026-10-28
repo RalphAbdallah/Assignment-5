@@ -1,0 +1,19 @@
+.inputRow {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.inputRow input {
+  flex: 1;
+  min-width: 0;
+}
+
+.inputRow input[aria-invalid='true'] {
+  border-color: var(--danger);
+}
+
+.fieldError {
+  margin-top: var(--sp-2);
+  font-size: 0.875rem;
+  color: var(--danger);
+}

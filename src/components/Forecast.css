@@ -1,0 +1,14 @@
+.forecastTitle {
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-3);
+  font-size: 1rem;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
